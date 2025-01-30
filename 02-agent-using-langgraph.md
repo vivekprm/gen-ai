@@ -59,3 +59,6 @@ self.model = model.bind_tools([tool])
 You can see that we imported it from langchain community pakage which contains hundreds of other tools.
 
 May be biggest part of this application that most code that we wrote, was this function that would loop and that's what is represented by all these arrows.
+
+<img width="889" alt="Screenshot 2025-01-30 at 11 44 23 AM" src="https://github.com/user-attachments/assets/dc54f1f0-5cc8-4aad-967a-972e8c3dec99" />
+
