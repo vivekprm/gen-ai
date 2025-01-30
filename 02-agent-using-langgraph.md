@@ -58,7 +58,25 @@ self.model = model.bind_tools([tool])
 
 You can see that we imported it from langchain community pakage which contains hundreds of other tools.
 
-May be biggest part of this application that most code that we wrote, was this function that would loop and that's what is represented by all these arrows.
+May be biggest part of this application that most code that we wrote, was this function that would loop and that's what is represented by all these arrows and that's one way to think about **LangGraph**.
 
 <img width="889" alt="Screenshot 2025-01-30 at 11 44 23 AM" src="https://github.com/user-attachments/assets/dc54f1f0-5cc8-4aad-967a-972e8c3dec99" />
 
+**LangGraph** helps you describe and orchestrate that control flow. Specifially, it allows you to create **cycli graphs**, which is exactly what we have here. It also comes with built-in **persistence** and this is really nice for having multiple conversations at the same time or remembering previous iterations and actions.
+
+This **persistence** also enables really cool human in the loop features.
+
+If you look at these diagrams, and these are all diagrams of agents from academic papers, these are all represented as graphs and that realization was what led to the creation of **LangGraph** and extension of **LangChain** speifially aimed at agent and multi-agent flows. Crucially it allows for really controlled flows.
+So in these diagrams there's really specific arrows leading from one box or state to the next. We have seen that this controllability is crucial for creating agents that can perform well.  
+
+## Graphs
+Three of the core concepts of **LangGraph** are 
+- **Nodes**
+- **Edges**
+- **Conditional Edges**.
+
+Nodes are the Agents or Functions .
+Edges connect these nodes .
+Conditional edges are used when you need to make decision about which node you should go to next.
+
+Look at the example of Langgraph in the notebook which is equivalent to the code we wrote in lesson 1.
