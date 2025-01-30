@@ -116,6 +116,8 @@ Three of the variables are not annotated in anyway. This means that when a new u
 
 Getting really specific about the previous agent that we created and how that would map to a **LangGraph** object:
 
+<img width="483" alt="Screenshot 2025-01-30 at 12 31 13 PM" src="https://github.com/user-attachments/assets/ffd3ec86-a442-4b01-b1bc-f6ebf8a61028" />
+
 We can see that we will have one node, we'll call this **call openai** node and this will call the LLM. 
 We'll then have a conditional edge which will check for the existence of an action to take so we will call this **exists_action**.
 And then we'll have another node which actually executes the action. We'll call this **take_action**.
