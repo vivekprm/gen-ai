@@ -66,6 +66,8 @@ May be biggest part of this application that most code that we wrote, was this f
 
 This **persistence** also enables really cool human in the loop features.
 
+<img width="913" alt="Screenshot 2025-01-30 at 11 53 59 AM" src="https://github.com/user-attachments/assets/a4fe66fa-205e-4a84-9d6e-bc5e9c00b40c" />
+
 If you look at these diagrams, and these are all diagrams of agents from academic papers, these are all represented as graphs and that realization was what led to the creation of **LangGraph** and extension of **LangChain** speifially aimed at agent and multi-agent flows. Crucially it allows for really controlled flows.
 So in these diagrams there's really specific arrows leading from one box or state to the next. We have seen that this controllability is crucial for creating agents that can perform well.  
 
