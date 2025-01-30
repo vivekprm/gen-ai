@@ -1,6 +1,6 @@
 Let's breakdown what we did in lesson 1.
 
-![Uploading Screenshot 2025-01-30 at 11.19.33 AM.png…]()
+<img width="645" alt="Screenshot 2025-01-30 at 11 19 33 AM" src="https://github.com/user-attachments/assets/88a55282-5e1e-47a8-8548-961cdd6b4770" />
 
 We had this user message that came in, we then had the system prompt and this was very long one. 
 We then called an LLM with that. This outputted somthing like what's right there a thought and an action.
