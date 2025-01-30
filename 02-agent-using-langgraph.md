@@ -82,3 +82,8 @@ Edges connect these nodes .
 Conditional edges are used when you need to make decision about which node you should go to next.
 
 Look at the example of Langgraph in the notebook which is equivalent to the code we wrote in lesson 1.
+
+We can have an agent node, this is the LLM.
+We can then have a conditional edge which takes the result of that LLM call and decides what to do next.
+One of those edges can be an action edge which calls a function node, and that automatically loops back to the agent node.
+There is an entrypoint, which is where you start, and then there is an end node, whih is the other action available to take after the agent.
