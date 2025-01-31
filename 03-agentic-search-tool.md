@@ -15,6 +15,8 @@ Looking at above picture, we can see the prompt is received by the agent, which 
 ## Inside a Search Tool
 This is an example of a very basic search tool implementation. Let's go over it step by step.
 
+<img width="820" alt="Screenshot 2025-01-31 at 3 20 11 PM" src="https://github.com/user-attachments/assets/ad861192-8cac-4d34-9ca3-d33ce38d776e" />
+
 If the agent decides it will send the query to the search tool. The first step would work on understanding the question and divide it to sub-questions if needed. This is an important step because it can handle complex queries. 
 
 The for each subquery, the search tool will have to find the best source. Choosing from multiple integrations. For example, if an agent would ask "How is the weather in San Francisco?" 
