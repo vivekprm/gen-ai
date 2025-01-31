@@ -7,4 +7,6 @@ As powerful as it's proven to be, there are many limitations to this process.
 - Secondly, in many usecases we would want to know the sources of the information provided in the result. 
     - This can reduce the hellucinations and smooth the friction of this human-computer interaction.
 
+<img width="462" alt="Screenshot 2025-01-31 at 3 00 04 PM" src="https://github.com/user-attachments/assets/3f7f2432-e305-436b-a91a-7078d7724af4" />
+
 Looking at above picture, we can see the prompt is received by the agent, which then decides to call the search tool. Then the information found is returned to the agent.
